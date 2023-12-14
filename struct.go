@@ -8,6 +8,7 @@ import (
 )
 
 type Party struct {
+	userName string
 	Life          int
 	WordsChoice   string
 	WordUser      []string
